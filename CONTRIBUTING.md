@@ -16,7 +16,11 @@ If you find a new bug or have a feature proposal, please open an issue using our
 
 To ensure a smooth workflow and high code quality, we ask all contributors to follow these steps:
 
-### 1. Star & Fork the Repository
+### 1. Claim an Issue
+- Find an open issue you'd like to work on. We recommend checking out our [good first issues](https://github.com/Kushaal-k/Tessera.io/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
+- Comment `/claim` directly on the issue. Our auto-claim bot will automatically verify that the issue is unassigned, assign it to you, and post a welcoming confirmation comment!
+
+### 2. Star & Fork the Repository
 - **Star the repo:** Show your support by starring the main Tessera.io repository!
 - **Fork it:** Click the "Fork" button at the top right of the repository page to create your own copy.
 - **Clone your fork:**
@@ -25,13 +29,13 @@ To ensure a smooth workflow and high code quality, we ask all contributors to fo
   cd Tessera.io
   ```
 
-### 2. Branching
+### 3. Branching
 Create a new branch for your feature or bug fix:
 ```bash
 git checkout -b feature/your-feature-name
 ```
 
-### 3. Making Changes
+### 4. Making Changes
 Make your changes in the relevant workspace(s) as described in the `README.md`. Ensure that your code follows the strict TypeScript guidelines of this repository.
 
 Test your changes locally by running:
@@ -41,7 +45,7 @@ npm run build
 npm run dev
 ```
 
-### 4. Committing Your Changes (Sign-offs Required)
+### 5. Committing Your Changes (Sign-offs Required)
 **IMPORTANT:** We require all commits to be signed off. The sign-off is a simple line at the end of the commit message which certifies that you wrote it or otherwise have the right to pass it on as an open-source patch. 
 
 Use the `-s` or `--signoff` flag when you commit your changes:
@@ -50,7 +54,7 @@ git commit -s -m "feat: your descriptive commit message"
 ```
 This will automatically append `Signed-off-by: Your Name <your.email@example.com>` to your commit message. If you do not sign off your commits, our CI pipeline will reject the pull request.
 
-### 5. Submit a Pull Request
+### 6. Submit a Pull Request
 Once you've pushed your signed-off commits to your fork, head over to the main repository and open a Pull Request. Provide a clear description of the problem you're solving and the changes you've made.
 
 ---
